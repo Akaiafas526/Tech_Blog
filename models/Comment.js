@@ -7,6 +7,7 @@ Comment.init(
   {
     // With relationship defined in index.js, primary key (id) will be created automatically at runtime
     body: {
+      
       type: DataTypes.STRING,
       allowNull: false
     }
@@ -14,7 +15,7 @@ Comment.init(
   },
   {
     sequelize,
-    // timestamps: false,
+    timestamps: false,
     freezeTableName: true,
     underscored: true
   }
