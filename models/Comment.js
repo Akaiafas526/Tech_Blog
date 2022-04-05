@@ -7,9 +7,12 @@ Comment.init(
   {
     // With relationship defined in index.js, primary key (id) will be created automatically at runtime
     body: {
-      
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
+    },
+    postId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     }
     // With relationship defined in index.js, foreign keys will be automatically created at runtime
   },
