@@ -8,9 +8,9 @@ Post.init(
     // With relationship defined in index.js, primary key (id) will be created automatically at runtime
     title: DataTypes.STRING,
     body: DataTypes.STRING,
-    userId: DataTypes.INTEGER,
-    created_at: DataTypes.DATE,
-    updated_at: DataTypes.DATE
+    // userId: DataTypes.INTEGER,
+    // created_at: DataTypes.DATE,
+    // updated_at: DataTypes.DATE
     // With relationship defined in index.js, foreign keys will be automatically created at runtime
 
   },
