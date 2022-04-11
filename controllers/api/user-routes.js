@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const { User } = require("../../models");
 
-// URL: /api/user
 router.post("/", async (req, res) => {
   try {
     const newUser = await User.create({
@@ -20,7 +19,6 @@ router.post("/", async (req, res) => {
   }
 });
 
-// URL: /api/user/login
 router.post("/login", async (req, res) => {
   try {
     const user = await User.findOne({

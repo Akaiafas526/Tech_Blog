@@ -9,7 +9,6 @@ router.post("/", withAuth, async (req, res) => {
     const newPost = await Post.create({
       title: req.body.title,
       body: req.body.body,
-      // ...req.body same same but different
 
       userId: req.session.userId,
     });
