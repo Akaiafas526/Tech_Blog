@@ -16,4 +16,4 @@ Run npm Install in terminal to downlaod all the dependencies needed to run the a
 
 + [Email](akaiafas526@gmail.com)
 
-
+https://github.com/Akaiafas526/Tech_Blog
