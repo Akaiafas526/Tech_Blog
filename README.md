@@ -6,6 +6,9 @@ This technology focused blog application that I created allows users to post tex
 ## Installation
 Run npm Install in terminal to downlaod all the dependencies needed to run the application.
 
+## Screenshot
+![image](./Assets/tech-blog-snapshot.png)
+
 
 ## License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
